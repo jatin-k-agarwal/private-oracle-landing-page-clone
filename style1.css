@@ -1,0 +1,134 @@
+
+
+section.offers{
+    width: 1520px;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    top: 750px;
+    left: -2px;
+}
+.advisors{
+    width: 1520px;
+    height: 749px;
+    background-image: url(./img/960x0-2\ 1.png);
+    background-size: cover;
+}
+.offer{
+    width: 1080.5px;
+    height: 749px;
+    position: absolute; 
+    top: 35px;
+    left: 250px;
+}
+.merry{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.super{
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-between;  
+}
+.psychic{
+    width: 100%;
+    display: flex;
+    padding-top: 50px ;
+    align-items: center;
+    justify-content: space-between;  
+}
+.Mask{
+   width: 150px;
+   height: 150px;
+}
+.text{
+    width: 458px;
+   font-size: 16px;
+    position: absolute;
+    left: 172px;
+}
+.heading{
+    font-weight: bold;
+    color: #09B3B0;
+}
+.free{
+    width: 105.5875px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    border: 2px;
+    background-color: #09B3B0;
+}
+.rate{
+    font-size: 20px;
+}
+.call{
+    font-size: 14px;
+    width: 100px;
+    margin-top: 10px;
+    padding-left: 3px;
+    color: white;
+    border: 3px solid #FF9F00;
+    background-color: #FF9F00;
+    border-radius: 4%;
+}
+.chat{
+    font-size: 14px;
+    width: 100px;
+    margin-top: 10px;
+    padding-left: 3px;
+    color: white;
+    border:3px solid #09B3B0;
+    background-color: #09B3B0;
+    border-radius: 4%;
+}
+.mail{
+    width: 100px;
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 3px;
+    color: #09B3B0;
+    border: 2px solid #09B3B0;
+    border-radius: 4%;
+}
+.zbutton{
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    margin-top: 30px;
+}
+.z{
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: #09B3B0;
+    border: 1px solid #09B3B0;
+    border-radius: 5%;
+    position: absolute;
+    left: 380px;
+}
+.y{
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: white;
+    background-color:#FF9F00 ;
+    border: 1px solid #FF9F00;
+    border-radius: 5%;
+    position: absolute;
+    left: 660px;
+}
