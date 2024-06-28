@@ -8,12 +8,15 @@ section.why{
     width: 100%;
     margin: 0;
     font-family: 'Segoe UI',sans-serif;
-    background-color: #edf8f9;
     position: absolute;
-    top: 1550px;
+    top: 1600px;
     left: -2px;
     text-align: center;
     
+}
+.why1{
+    background-color: #edf8f9;
+    height: 500px;
 }
 .private{
     width: 100%;

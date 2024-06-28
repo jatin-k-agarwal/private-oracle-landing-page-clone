@@ -5,18 +5,18 @@ section.offers{
     margin: 0;
     font-family: "Roboto", sans-serif;
     position: absolute;
-    top: 750px;
+    top: 800px;
     left: -2px;
 }
 .advisors{
     width: 1520px;
-    height: 749px;
+    height: 800px;
     background-image: url(./img/960x0-2\ 1.png);
     background-size: cover;
 }
 .offer{
     width: 1080.5px;
-    height: 749px;
+    height: 800px;
     position: absolute; 
     top: 35px;
     left: 250px;

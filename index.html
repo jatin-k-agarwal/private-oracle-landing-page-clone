@@ -17,9 +17,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">         
 </head>
 <body>
-   <section class="landing">
-      <div class="landing">
-         <div class="navbar">
+   <section class="landing section">
+      <div class="landing-container">
+         <div id="navbar" class="navbar">
              <img src="./img/logo.png" alt="logo" class="logo" id="logo">
          
            <ul>
@@ -58,7 +58,7 @@
      </div>
      
    </section>
-   <section class="offers">
+   <section class="offers section">
       <div class="advisors">
             <div class="offer">
          <div class="merry">
@@ -176,8 +176,8 @@
       </div>
       
    </section>
-   <section class="why">
-      <div class="why">
+   <section class="why section">
+      <div class="why1">
          <p id="why">
             why private Oracle?
          </p>
@@ -217,8 +217,8 @@
       </div>  
         
    </section>
-   <section class="faq">
-      <div class="faq">
+   <section class="faq section">
+      <div class="faq1">
          <div class="lrl">
             <p class="hhh">
                Love, Relationship, and Life FAQs
@@ -290,7 +290,7 @@
          </div>
       </div>
    </section>
-   <section class="foot">
+   <section class="foot section">
       <div class="foot">
          <div class="a">
             <div class="aa">
@@ -344,5 +344,22 @@
       </div>
 
    </section>
+  
+   <script>
+      window.addEventListener('scroll', function() {
+          var navbar = document.getElementById('navbar');
+          if (window.scrollY > 0) {
+              navbar.style.backgroundColor = '#fca'; // Change to desired color
+          } else {
+              navbar.style.backgroundColor = 'transparent'; // Original color
+          }
+      });
+  </script>
+  
+  
+ <script src="script.js"></script>
+   <!--  <script>
+      $()
+   </script>--> 
 </body>
 </html>

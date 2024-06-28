@@ -1,15 +1,25 @@
 
 .lrl{
+    width: 90%;
     padding-bottom: 20px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
+
 section.faq{
-    width: 50%;
+    width: 100%;
+    height: 1050px;
     margin: 0;
+    background-image: url(./img/1251331\ 1.png);
+    background-size: cover;
     position: absolute;
-    top: 2000px;
-    left: 25%;
+    top: 2100px;
+}
+.faq1{
+    width: 50%;
+    position: absolute;
+    left: 30%;
     text-align: center;
 }
 .question{
@@ -44,5 +54,9 @@ section.faq{
     border-radius: 5%;
     padding-top: 10px;
     position: absolute;
-    left: 45%;
+    left: 30%;
+}
+.\34 56 {
+    position: absolute;
+    left: 350px;
 }
