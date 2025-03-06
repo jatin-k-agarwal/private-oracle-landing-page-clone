@@ -42,3 +42,24 @@ window.addEventListener("scroll", function () {
 
     lastScrollPosition = scrollPosition;
 });
+
+
+//login-page-details----------------------------------------------------------------------
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const loginButton = document.getElementById("loginButton");
+
+    if (loginButton) {
+        loginButton.addEventListener("click", function (event) {
+            event.preventDefault(); // Prevent default action if inside a form
+
+            console.log("Login button clicked!"); // Debugging line to check if it works
+
+            // Redirect to login page
+            window.location.href = "login.html";
+        });
+    } else {
+        console.error("Login button not found!"); // Debugging for missing button
+    }
+});
